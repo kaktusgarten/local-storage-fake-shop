@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app" class="container border border-[#999999] m-auto">
+      <header class="p-5 bg-black text-white mb-5">
+        <h1 class="text-5xl font-bold">Fake Store</h1>
+        <p>
+          Die Add Buttons speichern die Artikel-Value im LocalStorage des
+          Browsers. (Siehe Console für Ausgaben)
+        </p>
+        <button id="btnClearStorage" class="border p-1 mt-4">
+          Clear Storage
+        </button>
+      </header>
+
+      <main class="container m-auto">
+        <section
+          id="productWrapper"
+          class="grid md:grid-cols-3 xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-5 p-3"
+        >
+          <!-- ARTICLEs -->
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="/src/js/index.js"></script>
+  </body>
+</html>
